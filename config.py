@@ -10,31 +10,31 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7393513769:AAGRttVn6-EXPI5GdRpeepDpXjnnU_ukqME")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7824233019:AAE3TMCMisfBluLhL-fX4Yuo2uBMNyXTL8E")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "22213072"))
+APP_ID = int(os.environ.get("APP_ID", "24817837"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "8ec41c246b5074ab926933fb286fb43f")
+API_HASH = os.environ.get("API_HASH", "acd9f0cc6beb08ce59383cf250052686")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002203224103"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002331866173"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1740287480"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7428552084"))
 
 #Port
 PORT = os.environ.get("PORT", "8000")
 
 #Database 
-DB_URI = "mongodb+srv://susantamusic:susantabhan@cluster0.5pwi1py.mongodb.net/?retryWrites=true&w=majority"
+DB_URI = "mongodb+srv://Aniflix:Lipun123@aniflix.q2wina5.mongodb.net/?retryWrites=true&w=majority&appName=Aniflix"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "instantlinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "fc8a95778f095f7c8e044f616ea8530bcc52766a")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "True")
+IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
 
